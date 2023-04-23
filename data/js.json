@@ -1,0 +1,35 @@
+{
+ "products":[
+{
+    "name": "Ração Pedigree 20kg",
+    "price": "R$49,95",
+    "image": "https://imgs.search.brave.com/HpVQkjdszpN_Oj2gYoRFJ9yDsCct3lkZfzDHZaDwrX0/rs:fit:900:900:1/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vcmFjby1wZWRp/Z3JlZS1wYXJhLWNl/cy1hZHVsdG9zLXNh/Ym9yLWNhcm5lLWUt/Y2VyZWFpcy0yMGtn/LURfTlFfTlBfOTI5/OTc2LU1MQjI5MTMz/MTAxMDYxXzAxMjAx/OS1GLmpwZw"
+ 
+},
+{
+    "name":"Brinquedo Osso",
+    "price":"R$9,99",
+    "image": "https://imgs.search.brave.com/pgTB2drMCX6vFu0dRdpNbZ_Mla8O0hwg5ekCVdnlIzQ/rs:fit:1000:1000:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGNkbi5jb20u/YnIvaW1nL2ltZ19w/cm9kLzU2MDg0NC9i/cmlucXVlZG9fb3Nz/b19kZV9wZWx1Y2lh/X2NoYWxlc2NvXzI4/Nl8xXzIwMTcwOTI5/MTQyMzQ5LmpwZw"
+
+},
+{
+    "name":"Areia Sanitária Gatos",
+    "price":"R$34,99",
+    "image": "https://www.petlove.com.br/images/products/250532/product/2554195.jpg?1635795886"
+
+},
+
+{
+    "name":"Brinquedo Osso",
+    "price":"R$10",
+    "image": "https://imgs.search.brave.com/pgTB2drMCX6vFu0dRdpNbZ_Mla8O0hwg5ekCVdnlIzQ/rs:fit:1000:1000:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGNkbi5jb20u/YnIvaW1nL2ltZ19w/cm9kLzU2MDg0NC9i/cmlucXVlZG9fb3Nz/b19kZV9wZWx1Y2lh/X2NoYWxlc2NvXzI4/Nl8xXzIwMTcwOTI5/MTQyMzQ5LmpwZw"
+
+},
+{
+    "name":"Brinquedo Osso",
+    "price":"R$10",
+    "image": "https://imgs.search.brave.com/pgTB2drMCX6vFu0dRdpNbZ_Mla8O0hwg5ekCVdnlIzQ/rs:fit:1000:1000:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGNkbi5jb20u/YnIvaW1nL2ltZ19w/cm9kLzU2MDg0NC9i/cmlucXVlZG9fb3Nz/b19kZV9wZWx1Y2lh/X2NoYWxlc2NvXzI4/Nl8xXzIwMTcwOTI5/MTQyMzQ5LmpwZw"
+
+}
+ ]
+}

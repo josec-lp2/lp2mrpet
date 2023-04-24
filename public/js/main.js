@@ -12,12 +12,15 @@ function getProductView(product) {
         <span class="actual-price">${product.
         price}</span>
       </p>
-    </div>`;
+    </div></li>`;
     
 }
 
 
-const response = await fetch('./data/js.json');
+
+
+
+const response = await fetch('./data/products.js');
 const data = await response.json();
 
 let productsView = '';
@@ -54,7 +57,5 @@ document.querySelector('form').addEventListener('submit', event => {
   const filteredProducts = searchProducts(query);
   displayProducts(filteredProducts);
 });
-
-
 
 

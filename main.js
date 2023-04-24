@@ -1,10 +1,10 @@
 function getProductView(product) {
   return `<li class="product-item">
     <div class="product-box-image">
-      <img
+      <a href="index.html"><img
         src="${product.image}"
         class="product-image"
-      />
+      /></a>
     </div>
     <p class="product-name">${product.name}</p>
     <div class="product-price">

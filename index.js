@@ -2,8 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const path= require('path')
-const products = require('data/js.json');
+const path= require('path');
+const products = require('./data/js.json');
 
 
 
@@ -34,6 +34,9 @@ server.use('/', router);
 
 
 
+server.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
 
 
 
@@ -110,20 +113,6 @@ server.use((err, req, res, next) => {
     res.status(500).json({ message: 'Something broke!' });
   }
 });*/
-
-
-
-
-
-
-
-
-
-
-
-server.listen(3000, () => {
-  console.log('Server is running on port 3000');
-});
 
 
 

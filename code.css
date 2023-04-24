@@ -113,6 +113,7 @@ padding:1px;
 margin-top: -8.48px;
 margin-left: -10px;
 margin-right: -8px;
+overflow: hidden;
 
   }
   .toolbar-button {
@@ -138,13 +139,39 @@ body {
     Consolas, monaco, monospace;
 
 }
+
+#accountmsg{
+  margin-left: 960px;
+ margin-top: -70px;
+}
+
+#accountmsg2{
+  
+  padding:10px 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #ff8800;
+    color: #fff;
+    font-size:20px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -47px;
+    cursor: pointer;
+    font-family:Consolas, monaco, monospace;
+
+
+}
+
+
+
 #search-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left:30px;
-    margin-top:-95px;
-    margin-bottom:60px;
+    margin-left:-200px;
+    margin-top:-50px;
+    margin-bottom:20px;
   }
 
   #search-box {
@@ -210,26 +237,25 @@ body {
 
         .sale-box {
           border: 3px solid #ffffff;
-          background-color: rgb(210, 123, 52);
+          background-color: rgb(255, 255, 255);
           padding: 20px;
           width: 1370px;
           box-shadow: 0 0 20px 4px #c559b0;
         }
 
-        .image-placeholder {
-          height: 200px;
-          margin-bottom: 20px;
-          width: 100%;
-          border-radius: 40px;
-         
-        }
-        #sale{
-          width: 140px;
-          height: 140px;
-          margin-left: 52px;
+        
+        #saleimg{
+          width: 1300px;
+          height: 500px;
+          margin-left:34px;
           border-radius: 10px;
+       
          
         }
+
+
+
+
         .saley{
           display: flex;
          gap: 16px;

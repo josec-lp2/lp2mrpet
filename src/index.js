@@ -7,9 +7,13 @@ server.use(express.json());
 
 server.use(express.static("public"));
 
+server.get('/', function(req, res, next) {
+  res.render('index');
+});
 server.get("/products", (req, res) => {
   res.json(products);
 });
+
 
 server.listen(3000, () => {
   console.log("Server is running on port 3000");

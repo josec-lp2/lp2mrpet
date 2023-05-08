@@ -20,7 +20,7 @@ function getProductView(product) {
 
 
 
-const response = await fetch('./data/products.js');
+const response = await fetch('./../data/products.json');
 const data = await response.json();
 
 let productsView = '';

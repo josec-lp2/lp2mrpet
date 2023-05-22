@@ -44,7 +44,13 @@ function searchProducts(query) {
 
 function displayProducts(products) {
   const productsView = products.map(getProductView).join('');
-  document.querySelector('ul.catalog').innerHTML = productsView;
+
+
+  if (products.length == 0) {
+    document.querySelector('ul.catalog').innerHTML=`<p>Nenhuma Produto encontrado!!</p>`
+  }else{
+    document.querySelector('ul.catalog').innerHTML = productsView;
+  }
 }
 
 //  DISPLAY THE PRODUCTS
